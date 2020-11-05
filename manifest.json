@@ -6,7 +6,7 @@
     "author": "Pavel-Vlad Mateescu",
  
     "content_scripts": [{
-        "js": ["","scripts.js"],
+        "js": ["scripts.js"],
         "matches": ["https://ocw.cs.pub.ro/courses/*/laboratoare/*"]
     }]
  
