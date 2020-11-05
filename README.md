@@ -9,10 +9,10 @@ Left - The default window  |  Right - with OCW Candy toggled On
 
 Installation
 ============
-You will need to turn developer mode on in [chrome://extensions](chrome://extensions) from top right.
+You will need to turn developer mode on in __`chrome://extensions`__ from top right.
 
 1. Clone OCW Candy to our system;
-2. Select the cloned repo in [chrome://extensions](chrome://extensions) in Load unpacked, top left button;
+2. Select the cloned repo in __`chrome://extensions`__ in Load unpacked, top left button;
 3. Pin OCW Candy;
 
 How to use
