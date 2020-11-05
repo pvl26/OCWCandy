@@ -1,0 +1,25 @@
+body {
+    margin: 1px;
+}
+
+#wrapper {
+    border: none;
+    padding: none;
+}
+
+.left_page {
+    width: 100% !important;
+    padding: none;
+}
+
+.level2 {
+    margin-left: none;
+}
+
+.level3 {
+    margin-left: none;
+}
+
+.level4 {
+    margin-left: none;
+}

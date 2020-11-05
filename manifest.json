@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+    "name": "Modify CSS for OCW",
+    "version": "0.1.0",
+    "description": "Correction for page format for two windows side by side",
+ 
+    "content_scripts": [{
+        "css": ["styles.css"],
+        "matches": ["https://ocw.cs.pub.ro/courses/*"]
+    }]
+ 
+}
