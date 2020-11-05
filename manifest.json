@@ -1,13 +1,20 @@
 {
     "manifest_version": 2,
     "name": "OCWCandy",
-    "version": "0.1.6",
+    "version": "0.2.0",
     "description": "Correct for page style for two windows side by side",
     "author": "Pavel-Vlad Mateescu",
- 
+    "browser_action": {
+        "default_icon": {
+          "16": "images/icon16.png",
+          "24": "images/icon24.png",
+          "32": "images/icon32.png"
+        },
+        "default_title": "OCW Candy",
+        "default_popup": "popup.html"
+    },
     "content_scripts": [{
-        "js": ["scripts.js"],
-        "matches": ["https://ocw.cs.pub.ro/courses/*/laboratoare/*"]
-    }]
- 
+        "matches": ["https://ocw.cs.pub.ro/courses/*/laboratoare/*"],
+        "js": ["jquery.js"]
+    }] 
 }
