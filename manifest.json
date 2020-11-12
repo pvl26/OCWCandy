@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "OCWCandy",
-    "version": "0.2.0",
+    "version": "0.2.1",
     "description": "Correct for page style for two windows side by side",
     "author": "Pavel-Vlad Mateescu",
     "browser_action": {
@@ -14,7 +14,7 @@
         "default_popup": "popup.html"
     },
     "content_scripts": [{
-        "matches": ["https://ocw.cs.pub.ro/courses/*/laboratoare/*"],
+        "matches": ["https://ocw.cs.pub.ro/courses/*/laboratoare/*", "https://ocw.cs.pub.ro/courses/*/teme/*"],
         "js": ["jquery.js"]
     }] 
 }
