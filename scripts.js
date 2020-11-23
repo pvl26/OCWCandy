@@ -8,7 +8,7 @@ console.log('[OCWCandy] No bullshit, just for the sake of my mental health.');
             chrome.tabs.query({currentWindow: true, active: true},
                 function (tabs) {
                     chrome.tabs.executeScript(tabs[0].id, {
-                        code: `$("body").css({"margin":"3px"});
+                        code: `$("body").css({"margin":"7px"});
                         $("#wrapper").css({
                             "max-width":"100%",
                             "width":"100%",
