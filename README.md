@@ -18,7 +18,7 @@ You will need to turn developer mode on in __`chrome://extensions`__ from top ri
 
 How to use
 ==========
-Go to OCW, to the Laboratory page, select your particular lab, after the page loads, toggle OCW Candy from the On button, and to stop, toggle from Off.
+Go to OCW, to the Laboratory/Homework page, select your particular lab, after the page loads, toggle OCW Candy from the On button, and to stop, toggle from Off.
 
 Original Developer
 ------------------
