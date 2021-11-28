@@ -11,7 +11,7 @@ Installation
 ============
 You will need to turn developer mode on in __`chrome://extensions`__ from top right.
 
-1. Clone OCW Candy to our system;
+1. Clone OCW Candy to your system;
 2. Select the cloned repo in __`chrome://extensions`__ in Load unpacked, top left button;
 3. Pin OCW Candy;
 4. Right click on OCW Candy, if second line is __`Can't read or change site's data`__, then go to [OCW](https://ocw.cs.pub.ro/courses/), right click again on the second line button and select __`When you click extension`__;
